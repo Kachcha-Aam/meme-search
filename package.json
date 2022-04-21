@@ -11,6 +11,8 @@
     "@element-plus/icons-vue": "^1.1.4",
     "core-js": "^3.6.5",
     "element-plus": "^2.1.10",
+    "googleapis": "^39.2.0",
+    "natural": "^5.1.13",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
