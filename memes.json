@@ -1,64 +1,294 @@
 [
-	{
-		"link": "https://indianmemetemplates.com/wp-content/uploads/haan-maloom-hai-chal-apne-baap-ko-mat-sikha.jpg",
-		"text": "chal chal apne baap ko mat sikha",
-		"tokens": [
-			"chal",
-			"chal",
-			"apne",
-			"baap",
-			"ko",
-			"mat",
-			"sikha"
-		]
-	},
-	{
-		"link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtx7mV6TeZkBxatoBgazgAxwvjoozbCsDscQ&usqp=CAU",
-		"text": "risk hai",
-		"tokens": [
-			"risk",
-			"hai"
-		]
-	},
-	{
-		"link": "https://i.ytimg.com/vi/vdVMKJ91q70/maxresdefault.jpg",
-		"text": "bade harami ho beta",
-		"tokens": [
-			"bade",
-			"harami",
-			"ho",
-			"beta"
-		]
-	},
-	{
-		"link": "https://imgeng.jagran.com/images/2020/oct/Untitled%20design1603598592794.jpg",
-		"text": "chup ekdum chup rahiye",
-		"tokens": [
-			"chup",
-			"ekdum",
-			"chup",
-			"rahiye"
-		]
-	},
-	{
-		"link": "https://i.imgflip.com/5nhwrl.jpg",
-		"text": "jalwa hai hmara yahan",
-		"tokens": [
-			"jalwa",
-			"hai",
-			"hmara",
-			"yahan"
-		]
-	},
-	{
-		"link": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.scrolldroll.com%2Fmirzapur-meme-templates-season-1%2F&psig=AOvVaw1aSRawEXRzm5u-UQSn5cPa&ust=1650557087285000&source=images&cd=vfe&ved=0CAwQjRxqFwoTCMjC2biCo_cCFQAAAAAdAAAAABAa",
-		"text": "bhudhi bahut tez hai tumhari",
-		"tokens": [
-			"bhudhi",
-			"bahut",
-			"tez",
-			"hai",
-			"tumhari"
-		]
-	}
+  {
+    "link": "https://indianmemetemplates.com/wp-content/uploads/haan-maloom-hai-chal-apne-baap-ko-mat-sikha.jpg",
+    "text": "chal chal apne baap ko mat sikha",
+    "tokens": [
+      "chal",
+      "chal",
+      "apne",
+      "baap",
+      "ko",
+      "mat",
+      "sikha"
+    ]
+  },
+  {
+    "link": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtx7mV6TeZkBxatoBgazgAxwvjoozbCsDscQ&usqp=CAU",
+    "text": "risk hai",
+    "tokens": [
+      "risk",
+      "hai"
+    ]
+  },
+  {
+    "link": "https://i.ytimg.com/vi/vdVMKJ91q70/maxresdefault.jpg",
+    "text": "bade harami ho beta",
+    "tokens": [
+      "bade",
+      "harami",
+      "ho",
+      "beta"
+    ]
+  },
+  {
+    "link": "https://imgeng.jagran.com/images/2020/oct/Untitled%20design1603598592794.jpg",
+    "text": "chup ekdum chup rahiye",
+    "tokens": [
+      "chup",
+      "ekdum",
+      "chup",
+      "rahiye"
+    ]
+  },
+  {
+    "link": "https://i.imgflip.com/5nhwrl.jpg",
+    "text": "jalwa hai hmara yahan",
+    "tokens": [
+      "jalwa",
+      "hai",
+      "hmara",
+      "yahan"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/buddhi-bohut-tej-hai-tumhari-Mirzapur-Memes.jpg",
+    "text": "bhudhi bahut tez hai tumhari",
+    "tokens": [
+      "bhudhi",
+      "bahut",
+      "tez",
+      "hai",
+      "tumhari"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Abeyy-Padhai-likhai-karo-IASYAS-Bano-Mirzapur-Memes-768x432.png",
+    "text": "abe padhai likhai karo, ias~yas bano",
+    "tokens": [
+      "abe",
+      "padhai",
+      "likhai",
+      "karo",
+      "ias",
+      "yas",
+      "bano"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Abey-gand-na-phualo-Mirzapur-Memes-768x432.png",
+    "text": "abe gaand na fulao, maa chod denge tumhari",
+    "tokens": [
+      "abe",
+      "gaand",
+      "na",
+      "fulao",
+      "maa",
+      "chod",
+      "denge",
+      "tumhari"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/ashubh-dhun-Mirzapur-Memes.jpg",
+    "text": "ashubh dhun bajati hai",
+    "tokens": [
+      "ashubh",
+      "dhun",
+      "bajati",
+      "hai"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/bawal-seez-hai-bes-ystem-hil-jaata-hai-Mirzapur-Memes.jpg",
+    "text": "abe bawal chiz hai be, sara system hil jata hai",
+    "tokens": [
+      "abe",
+      "bawal",
+      "chiz",
+      "hai",
+      "be",
+      "sara",
+      "system",
+      "hil",
+      "jata",
+      "hai"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Bhaiya-ji-phone-nahi-utha-raha-Mirzapur-Memes.png",
+    "text": "bhaiya ji phone nahi utha raha, madarchod",
+    "tokens": [
+      "bhaiya",
+      "ji",
+      "phone",
+      "nahi",
+      "utha",
+      "raha",
+      "madarchod"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Chacha-o-Bhosdiwale-chacha-Mirzapur-Memes-768x432.png",
+    "text": "chacha, o bhoshdiwale chacha",
+    "tokens": [
+      "chacha",
+      "o",
+      "bhoshdiwale",
+      "chacha"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Dekhiye-aap-Humare-purane-mitr-hai-Mirzapur-Memes-768x432.png",
+    "text": "dekhiye, aap hamare purane mitra hai",
+    "tokens": [
+      "dekhiye",
+      "aap",
+      "hamare",
+      "purane",
+      "mitra",
+      "hai"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Didi-yehi-sex-kar-le-Mirzapur-Memes-768x432.png",
+    "text": "didi yahi sex karle tumhare sath",
+    "tokens": [
+      "didi",
+      "yahi",
+      "sex",
+      "karle",
+      "tumhare",
+      "sath"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Har-baar-garam-karke-Mirzapur-Memes-768x432.jpg",
+    "text": "har baar garam karke thhanda hi chhod dete hai",
+    "tokens": [
+      "har",
+      "baar",
+      "garam",
+      "karke",
+      "thhanda",
+      "hi",
+      "chhod",
+      "dete",
+      "hai"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/hum-bhi-pele-gaye-the-tum-bhi-pele-jaoge-Mirzapur-Memes-768x432.jpg",
+    "text": "hum bhi pele gaye the, tum bhi pele jaoge",
+    "tokens": [
+      "hum",
+      "bhi",
+      "pele",
+      "gaye",
+      "the",
+      "tum",
+      "bhi",
+      "pele",
+      "jaoge"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Hum-karte-hai-prabandh-Mirzapur-Memes-768x432.jpg",
+    "text": "hum karte hai prabhandh, aap chinta mat kariye",
+    "tokens": [
+      "hum",
+      "karte",
+      "hai",
+      "prabhandh",
+      "aap",
+      "chinta",
+      "mat",
+      "kariye"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/itni-chhoti-si-baat-pe-hag-diye-be-Mirzapur-Memes.png",
+    "text": "aur tum itni chhoti si baat pe hag diye be?",
+    "tokens": [
+      "aur",
+      "tum",
+      "itni",
+      "chhoti",
+      "si",
+      "baat",
+      "pe",
+      "hag",
+      "diye",
+      "be"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Jindagi-Ho-To-Aisi-Ho-Mirzapur-Memes-768x432.jpg",
+    "text": "jindagi ho to aisi ho, jinda to jhat ke baal bhi hai",
+    "tokens": [
+      "jindagi",
+      "ho",
+      "to",
+      "aisi",
+      "ho",
+      "jinda",
+      "to",
+      "jhat",
+      "ke",
+      "baal",
+      "bhi",
+      "hai"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Munna-mute-hai-munna-hi-pani-dalenge-Mirzapur-Memes-768x432.jpg",
+    "text": "munna moote hai, munna hi paani dalenge",
+    "tokens": [
+      "munna",
+      "moote",
+      "hai",
+      "munna",
+      "hi",
+      "paani",
+      "dalenge"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Music-Band-kar-Mirzapur-Memes-768x432.png",
+    "text": "music band kar madarchod",
+    "tokens": [
+      "music",
+      "band",
+      "kar",
+      "madarchod"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/Sale-horn-gan-mai-daal-denge-abhi-Mirzapur-Memes-768x432.jpg",
+    "text": "saale, horn gaand me daal denge abhi",
+    "tokens": [
+      "saale",
+      "horn",
+      "gaand",
+      "me",
+      "daal",
+      "denge",
+      "abhi"
+    ]
+  },
+  {
+    "link": "https://www.scrolldroll.com/wp-content/uploads/2020/09/To-Tum-Iske-Liye-Hamare-Darwaze-Pe-Chale-Aaye-Mirzapur-Memes-768x432.jpg",
+    "text": "to bhosdike iske liye tum hamare darwaze pe chale aaye?",
+    "tokens": [
+      "to",
+      "bhosdike",
+      "iske",
+      "liye",
+      "tum",
+      "hamare",
+      "darwaze",
+      "pe",
+      "chale",
+      "aaye"
+    ]
+  }
 ]

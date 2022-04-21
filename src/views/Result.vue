@@ -4,10 +4,10 @@
       <el-col :span="3">
         <img class="logo" alt="MemeSearch Logo" src="../assets/logo.jpg">
       </el-col>
-      <el-col :span="12"><search-bar /></el-col>
+      <el-col :span="12"><search-bar :query="$route.query.query" @search="showResult"/></el-col>
     </el-row>
     <el-divider />
-    <meme-results :results="results"/>
+    <meme-results :memes="memes"/>
   </div>
 </template>
 
@@ -15,29 +15,36 @@
 import SearchBar from '@/components/SearchBar.vue';
 import MemeResults from '@/components/MemeResults.vue';
 
+import api from '../api';
+
 export default {
   name: 'Home',
+
   components: {
     SearchBar,
     MemeResults,
   },
 
   data: () => ({
-    results: [
-      {
-        image: 'https://indianmemetemplates.com/wp-content/uploads/haan-maloom-hai-chal-apne-baap-ko-mat-sikha.jpg',
-        text: 'chal chal apne baap ko mat sikha',
-      },
-      {
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtx7mV6TeZkBxatoBgazgAxwvjoozbCsDscQ&usqp=CAU',
-        text: 'risk hai',
-      },
-      {
-        image: 'https://i.ytimg.com/vi/vdVMKJ91q70/maxresdefault.jpg',
-        text: 'bade harami ho beta',
-      },
-    ],
+    memes: [],
   }),
+
+  created() {
+    const { query } = this.$route.query;
+    if (!query) return;
+    this.memes = api.search(query);
+  },
+
+  methods: {
+    showResult(query) {
+      this.$router.replace({
+        name: 'Result',
+        query: { query },
+      });
+
+      this.memes = api.search(query);
+    },
+  },
 };
 </script>
 

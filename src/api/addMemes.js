@@ -1,19 +1,20 @@
 const fs = require('fs');
+
 const natural = require('natural');
+const allMemes = require('../../memes.json');
 
 const tokenizer = new natural.WordTokenizer();
-const path = '/home/anurag/Desktop/sideProj/meme-search/memes.json';
-async function addMemes(memes) {
+
+function addMemes(memes) {
   try {
-    const currImages = JSON.parse(fs.readFileSync(path));
     memes.forEach((meme) => {
-      currImages.push({
+      allMemes.push({
         link: meme.link,
-        text: meme.text,
-        tokens: tokenizer.tokenize(meme.text),
+        text: meme.text.toLowerCase(),
+        tokens: tokenizer.tokenize(meme.text.toLowerCase()),
       });
     });
-    fs.writeFileSync('memes.json', JSON.stringify(currImages));
+    fs.writeFileSync('memes.json', JSON.stringify(allMemes, null, 2));
   } catch (err) {
     console.log('Error in adding meme:', err);
   }

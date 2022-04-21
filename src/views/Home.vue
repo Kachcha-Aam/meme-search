@@ -1,7 +1,7 @@
 <template>
   <div class="home">
     <img alt="MemeSearch Logo" src="../assets/logo.jpg">
-    <SearchBar />
+    <search-bar @search="showResultPage"/>
   </div>
 </template>
 
@@ -12,6 +12,15 @@ export default {
   name: 'Home',
   components: {
     SearchBar,
+  },
+
+  methods: {
+    showResultPage(query) {
+      this.$router.push({
+        name: 'Result',
+        query: { query },
+      });
+    },
   },
 };
 </script>
